@@ -1,9 +1,9 @@
-const name = '';
+import { Button } from './_components/ui/button';
 
 const Home = () => {
    return (
       <div className="flex w-screen items-center">
-         <h1>Helo world</h1>;
+         <Button>Hello world </Button>
       </div>
    );
 };
